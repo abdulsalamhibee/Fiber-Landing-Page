@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+header {
+  background-color: rgb(246, 246, 231);
+}
+.sub-head {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.sub-head i {
+  font-size: 30px;
+  margin-right: 30px;
+}
+menu {
+  display: none;
+}
+.sub-head h5 {
+  margin: 0 0 0 20px;
+  font-size: 21px;
+}
+
+/*------------portfolio section------------*/
+.portfolio {
+  background-color: rgb(246, 246, 231);
+  padding-bottom: 2rem;
+}
+.portfolio img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  padding-right: 2.9rem;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.content {
+  background-color: rgb(246, 246, 231);
+}
+.content p {
+  padding: 0 2rem 0 30px;
+  color: rgb(77, 77, 77);
+  margin: 0;
+  font-weight: 300;
+  padding-bottom: 10px;
+  font-size: 14.5px;
+}
+.button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #4d13d1;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  margin: 0 20px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.content a {
+  font-weight: 700;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+#credit {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-bottom: 1rem;
+}
+#credit p {
+  padding: 3px 8px;
+}
+
+/*------------Fiber section------------*/
+.fiber p {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #4d13d1;
+  padding: 6rem 30px 0 30px;
+}
+#star {
+  display: flex;
+  display: none;
+  padding-left: 30px;
+}
+#time h5 {
+  padding-top: 15px;
+  font-size: 13px;
+  margin-left: 2rem;
+}
+#time svg {
+  font-size: 20px;
+  margin-left: 2rem;
+}
+#time {
+  padding-top: 20px;
+}
+
+#time p {
+  padding: 8px 2rem 0 30px;
+  color: rgb(63, 61, 61);
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/*------------SUB-PORFOLIO section------------*/
+#page {
+  background-color: #4d13d1;
+}
+.sub-portfolio {
+  background-color: #4d13d1;
+  color: white;
+  margin: 3.5rem 1.8rem 0px 1.8rem;
+  padding: 0 2rem;
+  border-radius: 8px;
+}
+.sub-portfolio h1 {
+  padding: 2rem 0 0 0;
+  font-size: 24px;
+}
+.sub-portfolio p {
+  font-weight: 300;
+  font-size: 15px;
+}
+.sub-portfolio a {
+  display: block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #4d13d1;
+  text-align: center;
+  padding: 13px 20px 13px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.picture img {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 8px;
+  height: 17rem;
+}
+
+/*------------COMMENT SECTION--------------*/
+.sub-comment {
+  padding: 0 1.5rem;
+}
+.sub {
+  border: 1px solid #ccc;
+  margin-top: 2rem;
+  margin-right: 18px;
+  border-radius: 5px;
+  padding: 10px;
+}
+#comment {
+  display: flex;
+  margin: 20px 0;
+}
+#comment img {
+  height: 2rem;
+  width: 2rem;
+  padding-right: 10px;
+}
+#comment p {
+  color: #4d13d1;
+  font-size: 11px;
+  font-weight: 900;
+  margin: 0;
+}
+#comment span {
+  font-size: 11px;
+}
+.sub-comment h6 {
+  margin-bottom: 0;
+  color: rgb(66, 66, 66);
+  font-weight: 700;
+}
+.sub-comment a {
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: #4d13d1;
+  padding: 10px 15px 10px 15px;
+  font-size: 11px;
+  display: block;
+  margin: 20px 0;
+  font-weight: 900;
+  border-radius: 6px;
+}
+
+#setup {
+  padding: 1rem 2rem;
+  background-color: rgb(246, 246, 231);
+}
+#setup h6 {
+  font-size: 16px;
+  margin: 20px 0;
+}
+#setup p,
+span {
+  font-size: 14px;
+}
+
+.menu2 ul li {
+  list-style: none;
+  padding: 5px 0;
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) {
+  .sub-head {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub-head i {
+    display: none;
+  }
+  menu {
+    display: flex;
+    font-size: 13px;
+  }
+  menu ul {
+    display: flex;
+    margin-right: 8rem;
+    color: rgb(63, 61, 61);
+    justify-content: space-between;
+    align-items: center;
+  }
+  menu ul li {
+    list-style: none;
+  }
+  menu ul li a {
+    outline: none;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  menu ul li a:hover {
+    border-bottom: 1px solid #4d13d1;
+  }
+  span {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+  }
+  span a {
+    margin-right: 30px;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  #sign {
+    background-color: #4d13d1;
+    color: #fff;
+  }
+  #sign:hover {
+    background-color: #fff;
+    color: #4d13d1;
+  }
+
+  .button {
+    width: 10rem;
+    margin-bottom: 20px;
+  }
+
+  /*-------------PORTFOLIO SECTION----------*/
+  #nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #star {
+    display: flex;
+  }
+  #star svg {
+    width: 14px;
+    height: 14px;
+  }
+  #star p {
+    font-size: 13px;
+  }
+  #Start {
+    display: flex;
+  }
+  #Start button {
+    padding: 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #Start a {
+    margin-left: 20px;
+  }
+  .portfolio {
+    grid-column: 2;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+  .content {
+    padding-top: 5rem;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .checklist {
+    display: flex;
+  }
+  #credit p {
+    padding-right: 0;
+    font-size: 13px;
+  }
+
+  /*-----------FIBER SECTION---------*/
+  .sub-fiber {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fiber p {
+    margin-bottom: 15px;
+  }
+  .sub-portfolio {
+    display: flex;
+  }
+  .picture {
+    width: 50rem;
+  }
+  .create {
+    margin: 2rem 1rem 2rem 0;
+  }
+  .create p {
+    font-size: 13px;
+  }
+  .create h1 {
+    font-size: 20px;
+  }
+  .create a {
+    margin: 1rem 7rem 0 0;
+  }
+
+  /*------------COMMENT SECTION-------*/
+  .sub-comment {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+
+  /*------------SETUP SECTION-------*/
+  #setup {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: left;
+    justify-items: left;
+    grid-gap: 4px;
+  }
+  #setup-1 {
+    grid-column: span 2;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    padding: 2rem 4.3rem;
+  }
+  #fb-color {
+    margin: 0 4rem;
+  }
+  .portfolio {
+    padding: 3rem 5rem 5rem 0;
+  }
+  .content {
+    padding: 6rem 0 0rem 4rem;
+  }
+  .picture img {
+    height: 100%;
+  }
+  .create p {
+    font-size: 15px;
+    padding: 10px 7rem 0 0;
+  }
+  .create h1 {
+    margin-top: 1rem;
+  }
+  .create a {
+    margin-right: 13rem;
+  }
+  .sub-comment {
+    margin: 2rem 2rem 0 2rem;
+  }
+  #setup {
+    background-color: rgb(246, 246, 231);
+    margin-top: 4rem;
+  }
+  .page {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  header {
+    padding: 1rem 7rem;
+  }
+  .portfolio {
+    padding: 1rem 9rem 3rem 2rem;
+  }
+  .content {
+    padding: 8rem 0 4rem 6.8rem;
+  }
+  #setup {
+    margin-top: 4rem;
+  }
+}
